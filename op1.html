@@ -3,9 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="op1.css">
     <title>OPCION 1</title>
 </head>
 <body>
-    <h1>Esta es la opcion 1</h1>
+    <div class="tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="a" checked>
+        <label for="tab1">Si/No</label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2" aria-controls="b">
+        <label for="tab2">Precios</label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3" aria-controls="c">
+        <label for="tab3">F.A.Q</label>
+        <!-- Tab 4 -->
+        <input type="radio" name="tabset" id="tab4" aria-controls="d">
+        <label for="tab4">Comisión</label>
+        <!-- Tab 5 -->
+        <input type="radio" name="tabset" id="tab5" aria-controls="e">
+        <label for="tab5">Galería</label>
+        
+        <div class="tab-panels">
+            <section id="a" class="tab-panel">
+                <h2>¿Qué cosas sí dibujo y cuales no?</h2>
+                <ul>
+                    <li><strong>Cosas que SI dibujo</strong></li>
+                    <li>Personajes femeninos</li>
+                </ul>
+                <ul>
+                    <li><strong>Cosas que NO dibujo</strong></li>
+                    <li>Personajes masculinos - aun no practico la anatomia asi que no me siento seguro de ofrecer algo de calidad</li>
+                    <li>Gore</li>
+                    <li>Animales</li>
+                    <li>Furros</li>
+                    <li>Armaduras muy complicadas</li>
+                    <li>Mechas - ya estoy practicando estos porque me empezaron a gustar</li>
+                </ul>
+            </section>
+            <section id="b" class="tab-panel">
+                <h2>Tabla de precios</h2>
+                <p>La siguiente es una imagen de referencia donde se muestran los costos dependiendo el tipo de dibujo que quieras.</p>
+                <img src="costos.webp" alt="tabla de costos">
+            </section>
+            <section id="c" class="tab-panel">
+                <h2>Preguntas Frecuentes</h2>
+                <p>El siguiente es un listado con las preguntas frecuentes y sus respectivas respuestas para cada una, igual, si surge cualquier duda mandar un correo a micorre@gmail.com</p>
+
+                <div class="accordion">
+                    <details>
+                      <summary>¿Cómo se realiza el pago?</summary>
+                      <p>Mediante Paypal, yo genero una factura y tu realizas el pago completo.</p>
+                    </details>
+                    <details>
+                      <summary>¿En cuánto tiempo mi comisión está lista?</summary>
+                      <p>5 a 7 días. Puede ser más o puede ser menos, esto depende de la complejidad de tu comisión, si es uno, dos o más personajes, si es unicamente lineart, si es a color, si son varios personajes de cuerpo completo a color y con fondo, me imagino que ya te das una idea.</p>
+                    </details>
+                    <details>
+                      <summary>¿Qué pasa si mi comisión no fue aprobada?</summary>
+                      <p>Sucede que hay ocasiones en que la comisión que solicitas me parece muy complicada o tiene elementos de la lista de cosas que no dibujo. Por lo que puedes optar por adaptar tus requisitos o de plano buscar otro artista que te pueda apoyar con tu comisión.</p>
+                    </details>
+                    <details>
+                      <summary>Mi comision fue aceptada, ahora ¿Qué procede?</summary>
+                      <p>Si tu comisión fue aceptada, enhorabuena, unicamente faltaría realizar el pago cubriendo el 100% del costo total y mandar el comprobante al mismo correo. Una vez que yo verifique tu pago, de inmediato me pondré a realizar tu comisión.</p>
+                    </details>
+                    <details>
+                        <summary>¿Qué tipo de moneda se maneja?</summary>
+                        <p>Todos los precios están en dolares estadounidenses, ya que esta moneda es una de las mas usadas.</p>
+                    </details>
+                </div>
+
+            </section>
+            <section id="d" class="tab-panel">
+                <h2>Encarga tu comisión</h2>
+                <p>Mandame un correo a micorreo@gmail.com con los siguientes datos</p>
+                <ul>
+                    <li>Nombre de tu personaje</li>
+                    <li>Foto de referencia</li>
+                    <li>Pose - opcional</li>
+                    <li>Describeme a tu personaje - me interesa su personalidad, expresion facial, colores y ropa que usa, etc.</li>
+                    <li>Tu cuenta de Paypal a la cual le voy a generar la factura</li>
+                    <li>¿Puedo subir tu comisión a mis redes sociales? - Yo te hago esta pregunta a ti mi estimado cliente, ya que me gustaría seguir promoviendo mi trabajo. Puedes agregra un texto como: "Doy permiso de subir esta comisión a las redes sociales de SKR42".</li>
+                </ul>
+                <p>Ahora, pueden suceder dos cosas principalmente, puede que acepte o rechaze tu comisión.</p>
+                <ul>
+                    <li><strong>En caso de que acepte tu comisión:</strong></li>
+                    <li>Realizo la factura a tu Paypal para que realices el pago</li>
+                    <li>Realizas el pago por completo de tu comisión</li>
+                    <li>Me envias un comprobante del pago al correo</li>
+                    <li>Yo verifico el pago y en ese mismo momento comienzo a trabajar en tu comisión</li>
+                </ul>
+                <ul>
+                    <li><strong>En caso de que rechaze tu comisión puedes:</strong></li>
+                    <li>Verificar que no contenga cosas de la lista de cosas que NO dibujo</li>
+                    <li>Adaptar tu comision ya que puede ser muy compleja</li>
+                    <li>Si quieres tu comision tal cual y yo la rechazo, lo mejor es que busques a otro artista que te pueda apoyar.</li>
+                </ul>
+                <p></p>
+                <p></p>
+            </section>
+            <section id="e" class="tab-panel">
+                <h2>Galería de dibujos</h2>
+                <p>A continuación puedes ver algunos de los dibujos que he realizado y sus precios correspondientes</p>
+
+
+                <ul id="ga">
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img id="aa" src='aa.webp' alt='Karma - $20'>
+                                <figcaption>Karma - $20</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img id="bb" src='bb.webp' alt='Kayle - $20'>
+                                <figcaption>Kayle - $20</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img id="cc" src='cc.webp' alt='Kalista - $15'>
+                                <figcaption>Kalista - $15</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img id="dd" src='dd.webp' alt='Evelyn - $35'>
+                                <figcaption>Evelyn - $35</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img id="ee" src='ee.webp' alt='Vayne 1 - $10'>
+                                <figcaption>Vayne 1 - $10</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img id="ff" src='ff.webp' alt='Vayne 2 - $15'>
+                                <figcaption>Vayne 2 - $15</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </section>
+        </div>
+    </div>
 </body>
 </html>
